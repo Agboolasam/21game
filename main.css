@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#gamebox {
+    box-sizing: border-box;
+    width: 350px auto;
+    height: auto;
+    background-color: rgb(100, 0, 23);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+}
+
+#balance {
+    padding-left: 50px;
+}
+
+button {
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: goldenrod;
+    border-radius: 3px;
+}
+
+input {
+    padding: 0;
+    width: 200px;
+    height: 20px;
+}
