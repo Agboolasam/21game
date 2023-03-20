@@ -3,6 +3,7 @@ let logIn = document.getElementById("log-in");
 let userName = document.getElementById("user-name");
 let userEl = document.getElementById("usr-nm");
 let balVal = document.getElementById("balance");
+let errMsg = document.getElementById("errmsg");
 let balLevel = 100;
 
 
@@ -18,7 +19,7 @@ function play() {
         //console.log(userName.innerText);
         balVal.innerText = "Balance:" + " " + balLevel;
     } else {
-        alert("Please input a Username");
+        errMsg.style.display = "block";
     }
 }
 

@@ -15,19 +15,20 @@
             <span id="user-name">Username:</span>
             <span id="balance">Balance:</span>
         </nav>
-        <p id="wel-come">
+        <div id="wel-come">
             <h2>
                 Welcome to the 21 Game <br>
             </h2>
             click the button below to continue <br>
             <button onclick="proceed()">Continue</button>
-        </p>
+        </div>
 
-        <p id="log-in" hidden>
+        <div id="log-in" hidden>
             Please input a username Below <br>
+            <p id="errmsg" style="color: black;" hidden>please input Username!!!</p>
             <input type="text" id="usr-nm" maxlength="10"> <br>
             <button onclick="confirmmsg()">Enter</button>
-        </p>
+        </div>
     </div>
 
     <script src="script.js"></script>
