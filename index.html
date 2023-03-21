@@ -15,6 +15,8 @@
             <span id="user-name">Username:</span>
             <span id="balance">Balance:</span>
         </nav>
+
+        <!---div for welcome page-->
         <div id="wel-come">
             <h2>
                 Welcome to the 21 Game <br>
@@ -23,11 +25,30 @@
             <button onclick="proceed()">Continue</button>
         </div>
 
+        <!--div for user registration-->
         <div id="log-in" hidden>
             Please input a username Below <br>
-            <p id="errmsg" style="color: black;" hidden>please input Username!!!</p>
+            <p id="errmsg" style="color: black;" hidden>please input Username!!!</p><br>
             <input type="text" id="usr-nm" maxlength="10"> <br>
             <button onclick="confirmmsg()">Enter</button>
+        </div>
+        <div id="start-game" hidden>
+            <button id="start-btn" onclick="startgame()">START GAME</button>
+        </div>
+
+        <!--div for the first game page-->
+        <div id="game-page" hidden>
+            <div id="pick-card">
+                <button id="draw-Card" onclick="Draw()">Draw</button>
+                <span>
+                    <div id="num-box">
+
+                    </div>
+                </span>
+            </div><br>
+            <label for="Result">Result:</label>
+            <input id="result-box" type="number" value="Result" disabled>
+
         </div>
     </div>
 
