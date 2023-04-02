@@ -33,6 +33,5 @@ function confirmmsg() {
 function startgame() {
     startGame.style.display = "none";
     gamePage.style.display = "block";
-
 }
 // function to generate random number between 1 and 14
