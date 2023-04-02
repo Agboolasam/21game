@@ -44,11 +44,14 @@ input {
 
 #pick-card {
     text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
 
 #pick-card button {
     height: 100px;
     width: 60px;
+    outline: none;
 }
 
 #num-box {
@@ -66,4 +69,15 @@ input {
     height: 50px;
     width: 100px;
     border-radius: 20px;
+}
+
+
+/* card content text align */
+
+#num-box {
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
